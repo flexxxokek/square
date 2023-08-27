@@ -1,8 +1,5 @@
 <html>
-  <head>
-      <title>frick</title>
-  </head>
-  <body style="background-color:tomato">
+  <body style="background-color:yelllow">
     <h1>My first<br>project</h1>
     <hr>
     <p>it solves square equation</p>
