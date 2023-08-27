@@ -1,8 +1,11 @@
 <html>
   <head>
-    <h1>My first project</h1>
+      <title>frick</title>
   </head>
-  <body>
-    
+  <body style="background-color:tomato">
+    <h1>My first<br>project</h1>
+    <hr>
+    <p>it solves square equation</p>
   </body>
-</html>
+ </html>
+
