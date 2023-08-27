@@ -1,7 +1,8 @@
 #include <stdio.h>
+#include "flush.h"
 
 void flush_buffer()
 {
-    char p;
+    int p;
     while((p = getchar()) != EOF && p != '\n') {}
 }

@@ -1,4 +1,9 @@
 #ifndef FLUSH_DEF
 #define FLUSH_DEF
-    void flush_buffer();
+
+/**
+ * \brief flushes stdin
+ * \param aaa bbb
+ */
+void flush_buffer();
 #endif

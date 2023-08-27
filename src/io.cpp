@@ -1,33 +1,39 @@
 #include <stdio.h>
+#include <math.h>
 #include "flush.h"
 #include "constants.h"
+#include "io.h"
+#include "structs.h"
 
-void input(double* a, double* b, double* c)
+void input(struct coeffStruct* coeffs)
 {
-    while(scanf("%lf %lf %lf", a, b, c) != 3)
+    while(scanf("%lf %lf %lf", &coeffs->a, &coeffs->b, &coeffs->c) != 3)
     {
+        printf("ERROR: invalid coefficients! Try again.\n");
         flush_buffer();
     }
 }
 
-void output(int nRoots, double const x1, double const x2)
+void output(struct rootStruct roots)
 {
-    switch (nRoots)
+    switch (roots.nRoots)
     {
         case NOROOTS:
             printf("Sorry, there is no roots\n");
             break;
 
         case ONEROOT:
-            printf("Congratulations, your single root is %lf\n", x1); // code-style
+            printf("Congratulations, your single root is %lf\n", roots.x1);
             break;
 
         case TWOROOTS:
-            printf("Congratulations, your roots are %lf, %lf\n", x1, x2);
+            printf("Congratulations, your roots are %lf, %lf\n", roots.x1, roots.x2);
             break;
 
         case INFROOTS:
             printf("Mnogo Roots\n");
             break;
+        default:
+            printf("HAHAHA");
     }
 }

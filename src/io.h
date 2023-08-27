@@ -1,5 +1,5 @@
 #ifndef MY_IO
 #define MY_IO
-    void input(double* a, double* b, double* c);
-    void output(int nRoots, double const x1, double const x2);
+    void input(struct coeffStruct* coeffs);
+    void output(struct rootStruct roots);
 #endif

@@ -1,62 +1,61 @@
-#include "double_func.h"
-#include "constants.h"
 #include <assert.h>
 #include <math.h>
+#include "double_func.h"
+#include "constants.h"
+#include "square_equation.h"
+#include "structs.h"
 
-int solveLinear(double const b, double const c, double* x1)
+ROOTSNUM solveLinear(struct coeffStruct coeffs, struct rootStruct* roots)
 {
-    if(equal_d(b, 0))
+    if(equal_double(coeffs.b, 0))
     {
-        if(equal_d(c, 0))
+        if(equal_double(coeffs.c, 0))
         {
-            *x1 = NAN;
+            roots->x1 = NAN;
             return INFROOTS;
         }
         else
         {
-            *x1 = NAN;
+            roots->x1 = NAN;
             return NOROOTS;
         }
     }
     else
     {
-        *x1 = -c / b;
-        return 1;
+        roots->x1 = -coeffs.c / coeffs.b;
+        return ONEROOT;
     }
 }
 
-int solveSquare(const double a, const double b, const double c, double* x1, double* x2)
+ROOTSNUM solveSquare(struct coeffStruct coeffs, struct rootStruct* roots)
 {
-    assert(isfinite(a));
-    assert(isfinite(b));
-    assert(isfinite(c));
-    assert(x1 != x2);
-    assert(x1 != NULL);
-    assert(x2 != NULL);
-    if(equal_d(a, 0))
+    assert(isfinite(coeffs.a));
+    assert(isfinite(coeffs.b));
+    assert(isfinite(coeffs.c));
+    if(equal_double(coeffs.a, 0))
     {
-        *x2 = NAN;
-        return solveLinear(b, c, x1);
+        roots->x2 = NAN;
+        return solveLinear(coeffs, roots);
     }
     else
     {
-        double discriminant = b * b - 4 * a * c;
+        double discriminant = coeffs.b * coeffs.b - 4 * coeffs.a * coeffs.c;
         if(compare_d(discriminant, 0) == 1)
         {
             double sqr_discr = sqrt(discriminant);
-            *x1 = (-b - sqr_discr) / (2 * a);
-            *x2 = (-b + sqr_discr) / (2 * a);
-            return 2;
+            roots->x1 = (-coeffs.b - sqr_discr) / (2 * coeffs.a);
+            roots->x2 = (-coeffs.b + sqr_discr) / (2 * coeffs.a);
+            return TWOROOTS;
         }
-        else if(equal_d(discriminant, 0))
+        else if(equal_double(discriminant, 0))
         {
-            *x1 = -b / (2 * a);
-            *x2 = NAN;
-            return 1;
+            roots->x1 = -coeffs.b / (2 * coeffs.a);
+            roots->x2 = NAN;
+            return ONEROOT;
         }
         else
         {
-            return 0;
+            return NOROOTS;
         }
     }
 }
