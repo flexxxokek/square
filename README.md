@@ -6,7 +6,7 @@
         <p>it solves square equation</p>
       </div>
       <div>
-        <p>Just like this one --> <i>ax</i><sup>2</sup> + <i>bx</i> + <i>c</i></p>
+        <p>Just like this one --> <i>ax</i><sup>2</sup> + <i>bx</i> + <i>c</i> = 0</p>
       </div>
     </div>
   </body>
