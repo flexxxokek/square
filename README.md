@@ -21,10 +21,10 @@
       3.To get information about available flags run <code>./sqr.exe --help</code>
       </p>
       <pre>
-                                                                |\      _,,,---,,_
-                                                  ZZZzz /,`.-'`'    -.  ;-;;,_
-                                                       |,4-  ) )-,_. ,\ (  `'-'
-                                                      '---''(_/--'  `-'\_)  
+                                                              |\      _,,,---,,_
+                                                ZZZzz /,`.-'`'    -.  ;-;;,_
+                                                     |,4-  ) )-,_. ,\ (  `'-'
+                                                    '---''(_/--'  `-'\_)  
       </pre>
     </div>
     <div>
