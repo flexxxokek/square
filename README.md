@@ -11,11 +11,11 @@
     </div>
     <div>
       <h2>Before start</h2>
-      <pre><p>
-      1.Check doxygen documentation in folder <file>html</file>
-      2.To recompile run <file>compile.bat</file>
-      3.Run this command <code>./sqr.exe --help</code> to get information about available flags
-      </p></pre>
+      <p>
+      1.Check doxygen documentation in folder <file>html</file> </b>
+      2.To recompile run <file>compile.bat</file> </b>
+      3.Run this command <code>./sqr.exe --help</code> to get information about available flags </b>
+      </p>
     </div>
     <div>
     </div>
