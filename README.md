@@ -24,7 +24,7 @@
       <p>
       1.To start the program run <code>./sqr.exe</code> </br>
       2.If you have any proglems with starting the program, try to recompile it
-      (check chapter <span class="font-weight: bold;">Before start</span>)
+      (check chapter <span class="font-weight: 900;">Before start</span>)
       </p>
     </div>
   </body>
