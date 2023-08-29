@@ -14,10 +14,15 @@
       <p>
       1.Check doxygen documentation in folder <file>html</file> </br>
       2.To recompile run <file>compile.bat</file> </br>
-      3.Run this command <code>./sqr.exe --help</code> to get information about available flags </br>
+      3.To get information about available flags run <code>./sqr.exe --help</code>
       </p>
     </div>
     <div>
+      <h2>Running the program</h2>
+      <p>
+      1.To start the program run <code>./sqr.exe</code>
+      2.If you have any proglems with starting the program, try to recompile it(check chapter <bold>BEFORE START</bold>)
+      </p>
     </div>
   </body>
  </html>
