@@ -1,11 +1,12 @@
 <html>
   <head>
-    <style>
-      .city 
-      {
-        font-weight: bold;
-      }
-    </style>
+  <style>
+  .city {
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+  }
+  </style>
   </head>
   <body>
     <h1><b>My first<br>project :)</b></h1>
