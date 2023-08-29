@@ -4,7 +4,7 @@
   <body>
     <div>
       <h1><b>My first<br>project :)</b></h1>
-      <img src="[https://pazlyigra.ru/uploads/posts/2022-12/479679246.jpg](https://avatars.mds.yandex.net/i?id=5a018149e095ad0d1e659b897d21e1b2c32b3098-9849146-images-thumbs&n=13)">
+      <img src="https://avatars.mds.yandex.net/i?id=5a018149e095ad0d1e659b897d21e1b2c32b3098-9849146-images-thumbs&n=13">
     </div>
     <div>
       <div>
