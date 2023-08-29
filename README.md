@@ -1,10 +1,12 @@
 <html>
-  <style>
-    .city 
-    {
-      font-weight: bold;
-    }
-  </style>
+  <head>
+    <style>
+      .city 
+      {
+        font-weight: bold;
+      }
+    </style>
+  </head>
   <body>
     <h1><b>My first<br>project :)</b></h1>
     <div>
