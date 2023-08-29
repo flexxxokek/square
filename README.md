@@ -26,7 +26,7 @@
       <p>
       1.To start the program run <code>./sqr.exe</code> </br>
       2.If you have any proglems with starting the program, try to recompile it
-      (check chapter <span><b>Before start</b></span>)
+      (check chapter <span><b>Before start</b></span>) </br>
       3.Big cat :3
       </p>
       <img src="https://avatars.mds.yandex.net/i?id=5a018149e095ad0d1e659b897d21e1b2c32b3098-9849146-images-thumbs&n=13">
