@@ -1,4 +1,10 @@
 <html>
+  <style>
+    .city 
+    {
+      font-weight: bold;
+    }
+  </style>
   <body>
     <h1><b>My first<br>project :)</b></h1>
     <div>
@@ -21,7 +27,8 @@
       <h2>Running the program</h2>
       <p>
       1.To start the program run <code>./sqr.exe</code> </br>
-      2.If you have any proglems with starting the program, try to recompile it(check chapter Before start)
+      2.If you have any proglems with starting the program, try to recompile it
+      (check chapter <span class="note">Before start</span>)
       </p>
     </div>
   </body>
