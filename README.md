@@ -20,8 +20,8 @@
     <div>
       <h2>Running the program</h2>
       <p>
-      1.To start the program run <code>./sqr.exe</code>
-      2.If you have any proglems with starting the program, try to recompile it(check chapter <bold>BEFORE START</bold>)
+      1.To start the program run <code>./sqr.exe</code> </br>
+      2.If you have any proglems with starting the program, try to recompile it(check chapter Before start)
       </p>
     </div>
   </body>
